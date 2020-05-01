@@ -19,6 +19,8 @@ h5 (prior: 10%): This type of bag contains 100% lime candies.
 
 The program takes a single command line argument, which is a string, for example CLLCCCLLL. This string represents a sequence of observations, i.e., a sequence of candies that we have already picked. Each character is C if we picked a cherry candy, and L if we picked a lime candy. Assuming that characters in the string are numbered starting with 1, the i-th character of the string corresponds to the i-th observation. The program should be invoked from the commandline as follows:
 compute_a_posteriori observations
+
+
 For example:
 compute_a_posteriori CLLCCLLLCCL
 
